@@ -8,6 +8,50 @@ html,body{
 	height: 100%;
 }
 
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .clear{
 	clear: both;
+}
+
+header{   
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 3px 2%;
+}
+
+.logo1{
+    float: left;
+    width: 160px;
+    height: 120px;
+    background-image: url('../image/logo1.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: green;*/
+}
+
+.logo2{
+    float: right;
+    width: 160px;
+    height: 110px;
+    background-image: url('../image/xicara.png');
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 359px){
+    header{
+        text-align: center;
+    }
+
+    .logo1, .logo2{
+        margin-top: 10px;
+        display: inline-block;
+        float: none;
+    }
 }
