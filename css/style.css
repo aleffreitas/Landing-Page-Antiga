@@ -143,13 +143,70 @@ section.chamada h2{
 }
 
 section.chamada p{
-    width: 96%;
+    width: 98%;
     max-width: 700px;
     display: inline-block;
     color: white;
     margin-top: 10px;
     font-size: 18px;
     font-weight: normal;
+}
+
+section.mosaico .container{
+    width: 96%;
+}
+
+.flex-mosaico{
+    display: flex;
+}
+
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico{
+    /*background-color: rgb(214, 203, 197);*/
+    background-color: rgb(150, 107, 84);
+    padding: 60px;
+    width: 40%;
+}
+
+.item-2-mosaico p{
+    color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img{
+    width: 120px;
+}
+
+footer p{
+    margin-top: 8px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .flex-mosaico{
+        display: block;
+    }
+
+    .item-1-mosaico{
+        padding-top: 60%;
+        width: 100%;
+    }
+
+    .item-2-mosaico{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 960px){
