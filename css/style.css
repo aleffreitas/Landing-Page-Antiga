@@ -126,7 +126,7 @@ section.chamada{
     text-align: center;    
 }
 
-section.chamada .container{
+section.chamada div.container{
     width: 96%;
     background-color:rgb(77, 41, 21);
     padding: 40px 0;    
@@ -189,10 +189,6 @@ footer img{
 footer p{
     margin-top: 8px;
 }
-
-
-
-
 
 @media screen and (max-width: 768px){
     .flex-mosaico{
